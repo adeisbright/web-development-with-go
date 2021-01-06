@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Go : Students offering Go</title>
+</head>
+<body>
+    <h1>Templating with Go Templating Engine</h1> 
+    <p>Go comes with a powerful templating package</p>
+    
+        <code>
+            package main 
+            <p>
+                import (
+                    <br/>
+                    "fmt" <br/>
+                    "net/http" <br/>
+                    "html/template" <br/>
+                )
+            </p>
+            
+            <p> funct main(){ 
+                 // Create a router <br/>
+                 // Handle the request <br/>
+                 // Launch your server <br/>
+            }
+            </p>
+        </code> 
+    
+    <p>{{ .Author }}</p> 
+    <ul>
+        {{ range .Hobbies}} 
+        <li> {{ . }}</li> 
+        {{ end }}
+    </ul>
+</body>
+</html>
